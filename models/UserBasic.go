@@ -39,6 +39,5 @@ type UserBasic struct {
 
 // 定义一个方法
 func (table *UserBasic) TableName() string {
-
 	return "user_basic"
 }
